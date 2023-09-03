@@ -1,0 +1,18 @@
+.App{
+  max-width: 1340px;
+  margin: 0 auto;
+  height: 100vh;
+  margin:  0 auto;
+}
+.no_user{
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+}
+.no_user h1{
+  position: fixed;
+  font-size: 10rem;
+  font-weight: bold;
+  opacity: 20%;
+  color: #b4b4b4;
+}

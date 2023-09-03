@@ -1,0 +1,103 @@
+.user_list_container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns:  25% 25% 25% 25%;    
+}
+.user-photo{
+    width: 150px;
+    height: 150px;
+}
+.user-photo img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #a1d6ff;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: #929292 3px 3px 3px 3px;
+}
+.Card div{
+    padding: 10px;
+}
+.user_about h3{
+    text-align: center;
+    margin: 0;
+}
+#Delete_button{
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#Delete_button:hover{
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: .3;
+}
+
+@media (max-width: 1070px){
+    .user_list_container{
+        padding: 30px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns:  50% 50%;
+        width: 700px;
+        margin:  0 auto;
+    }
+    .Navbar{
+        padding:  0 10px;
+        padding: 10px;
+        margin:  0 auto;
+    }
+    .no_user h1{
+        font-size: 5rem;
+    }
+}
+@media (max-width: 700px){
+    .user_list_container{
+        display: grid;
+        grid-template-columns:  100%;
+        width: 400px;
+    }
+    .Navbar{
+        padding:  0 10px;
+        padding: 10px;
+        margin:  0 auto;
+    }
+}
+@media (max-width: 450px){
+    .user_list_container{
+        padding: 0;
+        width: 300px;
+        font-size: 15px;
+    }
+    .no_user h1{
+        font-size: 3rem;
+    }
+    .User_number button{
+        width: 90px;
+        font-size: 10px;
+    }
+    .User_count{
+        font-size: 15px;
+    }
+    .User_form label{
+        width: 200px;
+        padding:  0 0 0 15px ;
+    }
+    .modal{
+        margin-top: 100px;
+    }
+}
